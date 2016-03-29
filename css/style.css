@@ -1,0 +1,121 @@
+﻿	/*WRAPPER*/
+.wrapper{
+	height: 640px;
+	width: 800px;
+	margin: 20px auto;
+	padding: 25px 15px;
+	border: 1px solid #bfbfbf;
+	font-size: 15px;
+	font-family: Tahoma, sans-serif;
+}
+
+	/*TABS*/
+.wrapper__menu{
+	height: 320px;
+	width: auto;
+	padding: 5px;
+	border: 1px solid #aaaaaa;
+	border-radius: 10px;
+	margin-bottom: 70px;
+}
+
+.tabs {
+	width: 776px;
+	height: 32px;
+	padding: 5px 5px 0px;
+	border: 1px solid #aaaaaa;
+	border-radius: 5px;
+	background: #d5d5d5;
+}
+
+.tabs .tabs__title{
+	float: left;
+	margin: 2px;
+}
+
+.tabs a{
+	display: inline-block;
+	padding: 7px 22px;
+	border: 1px solid #d3d3d3;
+	border-bottom: none;
+	border-radius: 5px 5px 0 0;
+	background: #eaeaea;
+	color: #322737;
+	text-decoration: none;
+}
+
+.tabs__title a:hover{
+	border: 1px solid #aaaaaa;
+	border-bottom: none;
+	background: #c2c1c1;
+	color: #000;
+}
+
+.tabs__title.selected a,
+.tabs__title.selected a:hover{
+	border: 1px solid #fff;
+	background: #fff;
+	
+}
+
+.tabs__content{
+	clear: both;
+	padding: 24px;
+	line-height: 20px;
+}
+
+.paragraf{
+	margin-bottom: 10px;
+}
+
+	/*TOOLTIPS*/
+.wrapper__form{
+	height: 190px;
+	width: 800px;
+	border: 1px solid #bfbfbf;
+}
+
+form{
+	padding: 15px;
+}
+
+label{
+	display: inline-block; 
+	width: 70px;
+}
+
+form span{
+	display: inline-block;
+	padding-left: 2px;
+	width: 240px;
+	height: 30px;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	box-shadow: 0px 0px 14px 0px rgba(68,174,245,1);
+	opacity: 0;
+	transition: 1s;
+	line-height: 30px;
+	text-align: left;
+}
+
+.tooltip_box input{
+	width: 200px;
+	height: 20px;
+	margin-bottom: 30px;
+	margin-right: 7px;
+}
+
+.button{
+	width: 87px;
+	height: 26px;
+	margin-top: 2px;
+	border-radius: 2px;
+	border: 1px solid #d3d3d3;
+} 
+
+.button:hover{
+	border: 1px solid #aaa;
+	background: #c2c1c1;
+	color: #000;
+}
+  
